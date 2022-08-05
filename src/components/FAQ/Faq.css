@@ -1,0 +1,36 @@
+div#faqs .faq-item{
+    border: 2px solid var(--text-color);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 0 20px;
+    cursor: pointer;
+}
+div#faqs .faq-item .faq-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div#faqs .faq-item .faq-title h2{
+    color: var(--text-color);
+    margin: 0;
+    background: none;
+}
+div#faqs .faq-item .faq-title svg{
+    width: 20px;
+    fill: var(--text-color);
+}
+div#faqs .faq-item .content p{
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    div#faqs .faq-item{
+        border: 3px solid var(--text-color);
+        padding: 10px 20px;
+    }
+    div#faqs .faq-item .faq-title h2{
+        font-size: 16px;
+    }
+    div#faqs .faq-item .content p{
+        font-size: 14px;
+    }
+}

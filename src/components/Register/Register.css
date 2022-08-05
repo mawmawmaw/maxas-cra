@@ -1,0 +1,132 @@
+div#register {
+    margin: 90px 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder {
+    color: #ffffff66;
+    font-size: 12px;
+  }
+input[type=number] {
+  -moz-appearance: textfield;
+}
+div#register .content {
+    width: 600px;
+    margin: 0 auto;
+}
+div#register .content h2.section-title{
+    font-size: 38px;
+}
+div#register .content p{
+    text-align: center;
+}
+h2.counter {
+    text-align: center;
+    font-size: 42px;
+    padding: 10px 40px;
+    margin: 20px auto 60px;
+    color: var(--text-color);
+    animation: blink 1s ease infinite;
+    border: 5px solid var(--text-color);
+    border-radius: 20px;
+    width: 380px;
+}
+@keyframes blink {
+    from{
+        opacity: .2;
+    }
+    50%{
+        opacity: .8;
+    }
+    to{
+        opacity: .2;
+    }
+}
+.user-registration-count {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 24px;
+}
+form.register {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+form.register .input-container {
+    display: inline-grid;
+    margin: 0 5px;
+}
+form.register .input-container.check {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+form.register .input-container label{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 9px;
+}
+form.register .input-container.check label{
+    padding-top: 2px;
+}
+form.register .input-container input{
+    position: relative;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid var(--text-color);
+    border-radius: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color);
+    font-family: 'Kdam Thmor Pro'
+}
+form.register .input-container input#area{
+    width: 26px;
+}
+form.register .input-container input#phone{
+    width: 100px;
+}
+form.register button.button{
+    color: var(--text-color);
+    font-size: 18px;
+    font-family: 'Quicksand';
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: var(--pink-accent);
+    border: 2px solid var(--blue-accent);
+    box-shadow: 5px 5px 0 0 var(--aqua-accent);
+    width: 100%;
+    padding: 10px 80px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+form.register button.button:hover{
+    font-weight: bold;
+    box-shadow: 8px 8px 0 0 var(--aqua-accent);
+}
+form.register button.button:disabled{
+    animation: blink 1s ease infinite;
+}
+@media screen and (max-width: 768px) {
+    div#register {
+        margin: 0;
+    }
+    h2.counter {
+        font-size: 22px;
+        padding: 8px 20px;
+        margin: 20px auto 80px;
+        border: 3px solid var(--text-color);
+        width: 280px;
+    }
+    div#register .content h2.section-title{
+        font-size: 32px;
+    }
+    div#register .content {
+        width: 90%;
+    }
+}

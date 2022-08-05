@@ -1,13 +1,68 @@
+@font-face {
+  font-family: 'Fashion Fetish';
+  src: url('./assets/fonts/FashionFetishLight.woff2') format('woff2'),
+      url('./assets/fonts/FashionFetishLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fashion Fetish';
+  src: url('./assets/fonts/Fashion-Fetish-Bold.woff2') format('woff2'),
+      url('./assets/fonts/Fashion-Fetish-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fashion Fetish';
+  src: url('./assets/fonts/FashionFetish.woff2') format('woff2'),
+      url('./assets/fonts/FashionFetish.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root{
+  --pink-accent: #8E2178;
+  --blue-accent: #0483BA;
+  --aqua-accent: #83ffff;
+  --main-purple: #05020e;
+  --main-blue: #022330;
+  --main-gray: #171b1b;
+  --main-green: #072c0b;
+  --heading-color: #ffffffcc;
+  --text-color: #ffffff;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 76px;
+}
 body {
+  position: relative;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-gray);
+  /*background: linear-gradient(0deg, var(--main-green) 0%, var(--main-gray) 100%);*/
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Fashion Fetish';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--heading-color);
+  /*
+  background: #8E2178;
+  background: linear-gradient(to right, #8E2178 0%, #c72266 33%, #2D2F78 66%, #0483BA 100%);
+  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .25px var(--text-color);
+  */
 }

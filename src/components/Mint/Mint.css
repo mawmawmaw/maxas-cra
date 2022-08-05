@@ -1,0 +1,49 @@
+#mint .minting-box, #mint .connect-wallet {
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+}
+#mint .minting-box span.wallet-address {
+    color: var(--text-color);
+    font-size: 14px;
+}
+#mint button.button{
+    color: var(--text-color);
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: var(--pink-accent);
+    border: 5px solid var(--blue-accent);
+    box-shadow: 5px 5px 0 0 var(--aqua-accent);
+    padding: 10px 80px;
+    margin: 20px auto;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro';
+}
+#mint button.button-disconnect{
+    color: var(--pink-accent);
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: var(--text-color);
+    border: 5px solid var(--blue-accent);
+    box-shadow: 5px 5px 0 0 var(--aqua-accent);
+    padding: 10px 40px;
+    margin: 20px auto;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro';
+}
+#mint button.button:hover, #mint button.button-disconnect:hover{
+    font-weight: bold;
+    box-shadow: 8px 8px 0 0 var(--aqua-accent);
+}
+#mint button.button:disabled{
+    animation: blink 1s ease infinite;
+}
+#mint .post-mint-options {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#mint .post-mint-options button.button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
