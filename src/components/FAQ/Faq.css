@@ -19,7 +19,10 @@ div#faqs .faq-item .faq-title svg{
     width: 20px;
     fill: var(--text-color);
 }
-div#faqs .faq-item .content p{
+div#faqs .faq-item .faq-content{
+    transition: all .4s ease;
+}
+div#faqs .faq-item .faq-content p{
     text-align: left;
 }
 @media screen and (max-width: 768px) {
