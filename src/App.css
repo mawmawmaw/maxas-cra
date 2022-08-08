@@ -23,18 +23,30 @@
   width: 100%;
   margin: 0 auto;
 }
+.content{
+  width: 900px;
+  margin: 0 auto;
+}
 .content.grid {
   display: flex;
-  gap: 40px;
   align-items: center;
-  width: 600px;
-  margin: 0 auto 40px;
 }
 .content.grid > div{
-  flex: 0 0 75%;
-  width: 75%;
+  flex: 0 0 70%;
+  width: 70%;
+  margin-left: 5%;
+}
+.content.grid > div p{
+  margin-bottom: 20px;
 }
 .content.grid img.section-icon {
+  flex: 0 0 25%;
+  width: 25%;
+}
+.content.grid.gallery{
+  margin-top: 60px;
+}
+.content.grid.gallery > img {
   flex: 0 0 25%;
   width: 25%;
 }
@@ -90,7 +102,11 @@ div#footer .social-icons svg{
 div#footer .social-icons svg path{
   fill: var(--text-color);
 }
-
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .content{
+    width: 720px;
+  }
+}
 @media screen and (max-width: 768px) {
   h2.section-title{
     font-size: 42px;
@@ -104,8 +120,10 @@ div#footer .social-icons svg path{
   .section .container {
     padding: 0 20px;
   }
-  .content.grid {
+  .content{
     width: 90%;
+  }
+  .content.grid {
     gap: 0px;
     flex-direction: column;
   }
@@ -123,6 +141,14 @@ div#footer .social-icons svg path{
     width: 200px;
   }
   .content.grid img.section-icon, .content.grid > div {
+    flex: 0 0 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+  .content.grid.gallery{
+    margin-top: 40px;
+  }
+  .content.grid.gallery > img {
     flex: 0 0 100%;
     width: 100%;
   }
