@@ -112,7 +112,7 @@ div#footer .social-icons svg path{
 @media screen and (max-width: 768px) {
   h2.section-title{
     font-size: 42px;
-    line-height: 44px;
+    line-height: 48px;
   }
   p{
     text-align: center;
@@ -162,5 +162,8 @@ div#footer .social-icons svg path{
 }
 
 @supports (-webkit-touch-callout: none){
-
+  h2.section-title{
+    font-size: 42px;
+    line-height: 52px;
+  }
 }
