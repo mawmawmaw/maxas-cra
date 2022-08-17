@@ -12,6 +12,7 @@ div#faqs .faq-item .faq-title{
 }
 div#faqs .faq-item .faq-title h2{
     color: var(--text-color);
+    font-size: 16px;
     margin: 0;
     background: none;
 }
@@ -31,7 +32,7 @@ div#faqs .faq-item .faq-content p{
         padding: 10px 20px;
     }
     div#faqs .faq-item .faq-title h2{
-        font-size: 16px;
+        font-size: 12px;
     }
     div#faqs .faq-item .content p{
         font-size: 14px;

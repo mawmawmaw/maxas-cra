@@ -1,9 +1,11 @@
 div#hero.section{
     padding-top: 76px;
+    /*
     background-image: url(../../assets/bg-lines_1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    */
 }
 div#hero .container{
     text-align: center;
@@ -37,10 +39,9 @@ div#hero .container .main-img{
 }
 div#hero .container img.hero-logo{
     width: 480px;
-    margin-top: -60px;
 }
 div#hero .container h1{
-    margin-top: -80px;
+    margin-top: 0px;
     color: #ffffff66;
     letter-spacing: 2px;
 }
@@ -54,11 +55,9 @@ div#hero .container h1{
     }
     div#hero .container img.hero-logo{
         width: 80%;
-        margin-top: -40px;
     }
     div#hero .container h1{
-        margin-top: -40px;
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 @media screen and (min-width: 540px) and (max-width: 768px){

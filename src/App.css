@@ -4,11 +4,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /*
   background-image: url(./assets/bg-noise.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  */
 }
 .section{
   width: 100%;
@@ -155,5 +157,28 @@ div#footer .social-icons svg path{
   div.button {
     padding: 6px 40px;
     width: 200px;
+  }
+}
+
+@supports (-webkit-touch-callout: none){
+  .App{
+    background-image: none;
+  }
+  body{
+    background-color: none;
+  }
+  body:after{
+    content:"";
+    position:fixed; 
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    z-index:-1;
+    background-color: var(--main-gray);
+    background-image: url(./assets/bg-noise.png);
+    background-position: center center;
+    background-size: cover;
   }
 }

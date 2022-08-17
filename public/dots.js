@@ -1,6 +1,9 @@
-const canvas = document.querySelector('#scene');
-canvas.width = canvas.clientWidth;
-canvas.height = canvas.clientHeight;
+const canvas = document.createElement("canvas");
+canvas.id = "scene";
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+console.log(window.clientWidth);
+document.querySelector("#main-bg").appendChild(canvas);
 const ctx = canvas.getContext('2d');
 
 if (window.devicePixelRatio > 1) {

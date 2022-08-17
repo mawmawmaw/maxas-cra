@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .content.grid img.section-icon{
+        width: 60%;
+        margin: 10px auto;
+    }
+    .content.grid.gallery img{
+        margin: 0 0 20px;
+    }
+}

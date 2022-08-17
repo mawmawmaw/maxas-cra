@@ -41,13 +41,11 @@ html{
 body {
   position: relative;
   margin: 0;
-  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--main-gray);
-  /*background: linear-gradient(0deg, var(--main-green) 0%, var(--main-gray) 100%);*/
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -65,4 +63,20 @@ h1, h2, h3, h4, h5, h6{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: .25px var(--text-color);
   */
+}
+div#main-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(61,96,115);
+  background: radial-gradient(circle, var(--main-blue) 0%, var(--main-purple) 100%);
+  z-index: -2;
+}
+canvas {
+  width:100%;
+  height:100%;
+  opacity: 0.5;
+  position: fixed;
+  inset: 0;
 }
