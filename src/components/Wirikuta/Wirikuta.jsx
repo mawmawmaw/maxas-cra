@@ -16,6 +16,9 @@ const Wirikuta = () => {
                         <p>In this area is vast majority of the cacti that exist in the world and many of them are endemic, in turn there is a great variety of species of birds and mammals, such as the mexican royal eagle that is in danger of extinction.</p>
                     </div>
                 </div>
+                <div className='iframe'>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pTaxmWMv8dk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
             </div>
         </div>
     )

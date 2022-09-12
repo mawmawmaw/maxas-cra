@@ -14,10 +14,11 @@ const Header = () => {
                 <div className="navbar">
                     <ul>
                         <li><HashLink to="/#about">About</HashLink></li>
-                        <li><HashLink to="/#collection">Collection</HashLink></li>
                         <li><HashLink to="/#wirikuta">Wirikuta</HashLink></li>
                         <li><HashLink to="/#situation">Situation</HashLink></li>
+                        <li><HashLink to="/#collection">Collection</HashLink></li>
                         <li><HashLink to="/#faqs">FAQs</HashLink></li>
+                        <li><HashLink to="/#contact">Contact</HashLink></li>
                         <li><Link to="/mint" className='button'>Pre-Mint</Link></li>
                     </ul>
                     <div className="social-icons">

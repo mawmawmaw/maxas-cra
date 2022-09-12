@@ -26,6 +26,10 @@ div#faqs .faq-item .faq-content{
 div#faqs .faq-item .faq-content p{
     text-align: left;
 }
+div#faqs .faq-item .faq-content p a{
+    color: var(--text-color);
+    text-decoration: underline;
+}
 @media screen and (max-width: 768px) {
     div#faqs .faq-item{
         border: 3px solid var(--text-color);

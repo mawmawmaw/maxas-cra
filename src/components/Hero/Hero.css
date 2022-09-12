@@ -58,6 +58,7 @@ div#hero .container h1{
     }
     div#hero .container h1{
         font-size: 18px;
+        margin-top: 10px;
     }
 }
 @media screen and (min-width: 540px) and (max-width: 768px){

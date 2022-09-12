@@ -14,6 +14,9 @@ const Context = () => {
                         <p>The mining projects that existed currently continue to produce widespread contamination of heavy metals throughout the food chain.</p>
                     </div>
                 </div>
+                <div className='iframe'>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9FK6NoEl6po" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
             </div>
         </div>
     )

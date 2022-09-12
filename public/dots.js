@@ -2,7 +2,6 @@ const canvas = document.createElement("canvas");
 canvas.id = "scene";
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-console.log(window.clientWidth);
 document.querySelector("#main-bg").appendChild(canvas);
 const ctx = canvas.getContext('2d');
 
@@ -39,7 +38,7 @@ let FIELD_OF_VIEW = width * 1.2;
 
 if (window.devicePixelRatio > 1) {
   DOTS_AMOUNT = 3000; // Amount of dots on the screen
-  DOT_RADIUS = .2; // Radius of the dots
+  DOT_RADIUS = .4; // Radius of the dots
   GLOBE_RADIUS = height; // Radius of the globe
 }
 
