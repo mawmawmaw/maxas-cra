@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useMoralis } from 'react-moralis';
 import './Mint.css';
 import abi from './abi.json';
+import heroGif from '../../assets/hero.gif';
 const Mint = () => {
     
     const minterContractAddress = "0xbdda1Fe95B0E43Ca80Fae4EF03268373e0e3779A";
@@ -147,9 +148,14 @@ const Mint = () => {
     return (
         <div id="mint" className='section'>
             <div className='container'>
-                <h2 className='section-title'>Pre-Mint</h2>
-                {isAuthenticated || renderConnectWallet()}
-                {isAuthenticated && renderMintingBox()}
+                <div className="content grid">
+                    <img src={heroGif} className="main-img" alt="Maxas"/>
+                    <div>
+                        <h2 className='section-title'>Pre-Mint</h2>
+                        {isAuthenticated || renderConnectWallet()}
+                        {isAuthenticated && renderMintingBox()}
+                    </div>
+                </div>
             </div>
         </div>
     )

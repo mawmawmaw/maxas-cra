@@ -50,13 +50,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-iframe{
-  margin: 40px auto;
-}
-.iframe {
-  width: 100%;
-  text-align: center;
-}
 h1, h2, h3, h4, h5, h6{
   font-family: 'Fashion Fetish';
   font-weight: bold;

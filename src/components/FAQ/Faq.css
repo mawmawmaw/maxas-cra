@@ -13,8 +13,10 @@ div#faqs .faq-item .faq-title{
 div#faqs .faq-item .faq-title h2{
     color: var(--text-color);
     font-size: 16px;
+    line-height: 26px;
     margin: 0;
     background: none;
+    text-align: left;
 }
 div#faqs .faq-item .faq-title svg{
     width: 20px;

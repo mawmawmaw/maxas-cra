@@ -24,6 +24,7 @@
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 .content{
   width: 900px;
@@ -33,17 +34,25 @@
   display: flex;
   align-items: center;
 }
+.content.centered p{
+  text-align: center;
+}
 .content.grid > div{
-  flex: 0 0 70%;
-  width: 70%;
+  flex: 0 0 60%;
+  width: 60%;
   margin-left: 5%;
 }
 .content.grid > div p{
   margin-bottom: 20px;
 }
-.content.grid img.section-icon {
-  flex: 0 0 25%;
-  width: 25%;
+.content.grid iframe, .content.grid img {
+  flex: 0 0 35%;
+  width: 35%;
+  height: auto;
+}
+img.section-icon {
+  flex: 0 0 100px;
+  width: 100px;
 }
 .content.grid.gallery{
   margin-top: 60px;
@@ -77,6 +86,7 @@ div.button a{
 h2.section-title{
   position: relative;
   font-size: 50px;
+  line-height: 50px;
   text-align: center;
   letter-spacing: 2px;
 }
