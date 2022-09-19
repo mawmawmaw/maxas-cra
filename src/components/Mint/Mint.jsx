@@ -139,7 +139,7 @@ const Mint = () => {
                 <p>You will be able to mint 1 NFT to your wallet:</p>
                 <span className='wallet-address'>{user?.get("ethAddress")}</span>
                 <form className='mint' onSubmit={e=>preMintNFT(e)}>
-                    <button type='submit' className='button' disabled={Boolean(minting|| chainId!==contractChainId)}>{minting ? 'Minting...' : 'Mint'}</button><br/>
+                    <button type='submit' className='button' disabled={Boolean(minting|| chainId!==contractChainId)}>{minting ? 'Minting...' : 'Mint'}</button>
                     {minting || <button className='button-disconnect' onClick={logout}>Disconnect Wallet</button>}
                 </form>
             </div>
