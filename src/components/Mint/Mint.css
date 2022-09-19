@@ -23,7 +23,6 @@
     padding: 10px 80px;
     margin: 0px auto;
     cursor: pointer;
-    font-family: 'Kdam Thmor Pro';
 }
 #mint button.button-disconnect{
     color: var(--pink-accent);
@@ -35,7 +34,6 @@
     padding: 10px 40px;
     margin: 20px auto;
     cursor: pointer;
-    font-family: 'Kdam Thmor Pro';
 }
 #mint button.button:hover, #mint button.button-disconnect:hover{
     font-weight: bold;
